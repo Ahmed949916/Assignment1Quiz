@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resultRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+  >
+
+
+
+
+
+
+<TextView
+android:id="@+id/textViewResultUserName"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="32sp"
+    android:textFontWeight="@integer/material_motion_duration_long_1"
+android:textColor="#004A43"
+android:layout_marginBottom="20dp"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="60dp"
+    />
+
+
+<TextView
+android:id="@+id/textViewResult"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="@android:color/white"
+android:textSize="24sp"
+android:layout_below="@id/textViewResultUserName"
+android:layout_centerHorizontal="true"
+android:layout_marginBottom="40dp"
+/>
+
+
+<Button
+android:id="@+id/buttonShare"
+
+    android:layout_margin="12sp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/textViewResult"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="190dp"
+android:text="@string/share_score"
+    android:backgroundTint="#004C45"
+
+android:textColor="@android:color/white"
+android:paddingLeft="24dp"
+    android:padding="12sp"
+android:paddingRight="24dp"/>
+
+
+
+    </RelativeLayout>

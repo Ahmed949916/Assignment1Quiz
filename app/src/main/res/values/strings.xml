@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment#1Quiz</string>
+
+    <string name="enter_name">"Enter your name : "</string>
+    <string name="start_quiz">Start</string>
+    <string name="app_logo">App logo</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="share_score">Share Your Score</string>
+    <string name="restart">Restart</string>
+</resources>
